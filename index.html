@@ -29,7 +29,9 @@
         font-size:2rem;
         font-family: "Roboto", sans-serif;
         color: #323d55;
+        background-color:#007BFF
     }
+
     p{
     padding-left: 20px;
     padding-right: 20px;
@@ -61,14 +63,29 @@ input[type=submit] {
     color:white;
     font-weight: 300;
     }
+    @media only screen and (max-width: 650px) { 
 
-    @media all and (max-width: 480px) {
-    body {
-    background-color:black;
-    }
+        .bigboy {
+            font-size:30px;
+            padding-left:20px;
+            padding-right:20px;
+        }
+        .img {
+            width:30%;
+        }
+
+input[type=submit] {
+    margin-top:20px;
+}
+
+input[type=email] {
+    margin-top:20px;
+}
+
     }
 
-    </style>
+
+</style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -79,12 +96,12 @@ input[type=submit] {
 
 </head>
 
-<body style="background-color:#007BFF">
+<body>
 
     <!-- Page Content -->
     <div class="container">
         <div class="row text-center">
-           <img src="img/logoWhite.png"alt="SALAS ml logo" class="img-responsive img-center" style="display:table;margin: 0 auto;width:20rem;">
+           <img src="img/logoWhite.png"alt="SALAS ml logo" class="img-responsive img-center" style="display:table;margin: 0 auto;width:18rem;">
 
          </div>
 
